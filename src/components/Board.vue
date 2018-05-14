@@ -69,7 +69,7 @@ export default {
 <style lang="less" scoped>
   #jsplumb-demo {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: #fafafa;
     background-image:
         linear-gradient(rgba(180,180,180,.8) 1px, transparent 0),
