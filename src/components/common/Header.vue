@@ -10,7 +10,7 @@
 </template>
 <script>
 export default {
-  name: 'About'
+  name: 'Header'
 }
 </script>
 

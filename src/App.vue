@@ -8,18 +8,17 @@
   </div>
 </template>
 <script>
-  import router from './router'
+  
   import footComp from './components/common/Footer.vue'
 
   export default {
     name: 'App',
-    data: function(){
-      return {}
-    },
     components: {
       footComp
     },
-    router
+    data(){
+      return {}
+    }
   }
 </script>
 <style lang='less' scoped>

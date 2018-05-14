@@ -1,10 +1,16 @@
 <template>
-  <div>Tasks</div>
+  <div>
+    <Board/>
+  </div>
 </template>
 
 <script>
+import Board from '../../components/Board.vue'
 export default {
-  name: 'Tasks'  
+  name: 'Tasks',
+  components: {
+    Board
+  }  
 }
 </script>
 
